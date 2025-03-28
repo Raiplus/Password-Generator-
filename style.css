@@ -1,0 +1,88 @@
+
+:root {
+    --primary-color: #007bff;
+    --primary-hover-color: #0056b3;
+    --success-color: #28a745;
+    --success-hover-color: #218838;
+    --background-color: #f4f4f4;
+    --text-color: #000;
+    --card-background: #fff;
+    --card-shadow: rgba(0, 0, 0, 0.1);
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.password-generator {
+    background-color: var(--card-background);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--card-shadow);
+    text-align: center;
+    width: 300px;
+    max-width: 90%;
+    cursor: pointer;
+}
+
+.mode-buttons {
+    margin-bottom: 20px;
+}
+
+.mode-buttons button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.mode-buttons button:hover,
+.mode-buttons button:focus {
+    background-color: var(--primary-hover-color);
+    outline: none;
+}
+
+.mode-buttons button.active {
+    background-color: var(--primary-hover-color);
+}
+
+#passwordishere {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    word-break: break-all;
+}
+
+#generate_password {
+    background-color: var(--success-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#generate_password:hover,
+#generate_password:focus {
+    background-color: var(--success-hover-color);
+    outline: none;
+}

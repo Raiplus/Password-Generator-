@@ -21,12 +21,11 @@ A simple **password generator** that allows users to create **Easy, Medium, and 
 - **CSS** (Styling)
 - **JavaScript** (Functionality)
 
-## 📸 **Screenshots**
-![alt text](image.png)
-
-## 🖥 Live Demo
+- ## 🖥 Live Demo
 🔗 [Live Preview](https://raiplus.github.io/Password-Generator-/) 
 
+## 📸 **Screenshots**
+![alt text](image.png)
 
 ## 🔧 **Setup Instructions**
 1. Clone the repository:

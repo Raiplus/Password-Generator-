@@ -30,7 +30,8 @@ c:\Users\rsbhi\Desktop\Pasword generator\image.png
 ## 🔧 **Setup Instructions**
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Raiplus/Pok-mon-Finder.git
+   git clone https://github.com/Raiplus/Password-Generator-.git
+
    ```
 2. Navigate to the project folder:
    ```sh

@@ -22,11 +22,11 @@ A simple **password generator** that allows users to create **Easy, Medium, and 
 - Simple and intuitive UI.
   - **Color Update**: Changed background color of the password display area to a more vibrant green for better readability.
   - **Button Color Update**: Button hover effects now have a smoother transition between colors (green to darker green for save buttons, blue to darker blue for view buttons).
-- Save and view passwords feature.
-- Password storage using `localStorage`.
-- Responsive design for different screen sizes.
+  - Responsive design for different screen sizes.
 
 ### v1.1.0 (May 10, 2025)
+- Save and view passwords feature.
+- Password storage using `localStorage`.
 - Fixed UI issues with password display.
 - **Color Scheme Update**:
   - **Password Display**: Background color of the password display area updated to a lighter green for better contrast.

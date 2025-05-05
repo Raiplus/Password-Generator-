@@ -35,7 +35,8 @@ c:\Users\rsbhi\Desktop\Pasword generator\image.png
    ```
 2. Navigate to the project folder:
    ```sh
-   cd Pok-mon-Finder
+   cd Password-Generator
+
    ```
 3. Open `main.html` in a browser.
 

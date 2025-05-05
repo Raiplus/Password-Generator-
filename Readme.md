@@ -13,7 +13,7 @@ A simple **password generator** that allows users to create **Easy, Medium, and 
 
 ## 📝 **Changelog**
 
-### v1.0.0 (May 5, 2025)
+### v1.0.0 (April 05, 2025)
 - Initial release of the Password Generator.
 - Ability to generate passwords with 3 levels of strength:
   - **Easy**: Only numbers.
@@ -24,7 +24,7 @@ A simple **password generator** that allows users to create **Easy, Medium, and 
   - **Button Color Update**: Button hover effects now have a smoother transition between colors (green to darker green for save buttons, blue to darker blue for view buttons).
   - Responsive design for different screen sizes.
 
-### v1.1.0 (May 10, 2025)
+### v1.1.0 (May 05, 2025)
 - Save and view passwords feature.
 - Password storage using `localStorage`.
 - Fixed UI issues with password display.

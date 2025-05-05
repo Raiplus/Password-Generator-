@@ -38,7 +38,15 @@ body {
     cursor: pointer;
     color: #388e3c;
   }
-
+  #View{ margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    background-color: #157ded;
+    color: rgb(211, 224, 218);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;}
   #generate_password, #save {
     margin-top: 10px;
     padding: 8px 16px;
@@ -55,7 +63,27 @@ body {
   #save:hover {
     background-color: #388e3c;
   }
+  #View:hover{
+    background-color: #0e3de7;
+  }
+  #View_pass{ width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #a5d6a7;
+    border-radius: 6px;
+    outline-color: #66bb6a;
 
+  }
+  #save_it{
+    margin: 6px;
+    padding: 5;
+    border-radius: 5px;
+
+
+  }
+  #save_it:hover{
+    color: blue;
+  }
   #WhereTo {
     width: 100%;
     padding: 8px;
@@ -65,9 +93,3 @@ body {
     outline-color: #66bb6a;
   }
 
-  #save-message {
-    color: #2e7d32;
-    margin-top: 10px;
-    display: none;
-    font-size: 14px;
-  }

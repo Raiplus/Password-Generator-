@@ -6,9 +6,48 @@ document.addEventListener("DOMContentLoaded", () => {
     let generate_password = document.getElementById("generate_password");
     let save = document.getElementById("save");
     let password = '';
-    let WhereTo = document.getElementById("WhereTo")
+   
+    
+    let save_it=document.getElementById("save_it")
+    let View=document.getElementById("View");
+    let WhereTo = document.getElementById("WhereTo");
     let currentMode = 'easy'; // Default mode
-    //pass
+    // save pass
+    save_it.addEventListener("click", () => {
+        let View_pass=document.getElementById("View_pass").value.trim()
+        localStorage.setItem('UserPass', View_pass); // Save user's master password correctly
+    });
+    
+    //viwe style.display = "block";
+    View.addEventListener("click", () =>{
+        console.log('click')
+        let View_pass=document.getElementById("View_pass")
+        View_pass.style.display = "block";
+        NewView_pass = View_pass.value.trim();
+
+     
+        let UserPass=localStorage.getItem('UserPass')
+       
+        if(!UserPass){
+            alert('First creat a pass')
+            save_it.style.display = "block";
+        }
+        else{
+        
+        if(NewView_pass==UserPass){
+            let arr=JSON.parse(localStorage.getItem("passwordList")) || [];
+        for(let i of arr){
+            console.log(i)
+            console.log(localStorage.getItem(i))
+
+        }
+        }
+        else{
+            alert("Wrong Password")
+        }
+    }
+    })
+    //pass 
     save.addEventListener("click", () => {
         savepasword(password)
         let location = WhereTo.value.trim()
@@ -105,7 +144,7 @@ document.addEventListener("DOMContentLoaded", () => {
     generate_password.addEventListener("click", generatePassword);
     //fn to save password
     function savepasword(password) {
-        console.log('hwllo')
+
         console.log(password)
 
     }

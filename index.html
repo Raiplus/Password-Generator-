@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css" />
+ 
 </head>
 <body>
-    <div class="password-generator">
-        <!-- Container for Password Display -->
-        <div id="passwordishere">Your password will appear here</div>
+  <div class="password-generator">
+    <div id="passwordishere">Your password will appear here</div>
 
-        <!-- Radio Buttons for Password Strength -->
-        <div class="mode-buttons">
-            <label>
-                <input type="radio" name="level" id="easy" value="easy"> Easy
-            </label>
-            <label>
-                <input type="radio" name="level" id="medium" value="medium"> Medium
-            </label>
-            <label>
-                <input type="radio" name="level" id="strong" value="strong"> Strong
-            </label>
-        </div>
-
-        <!-- Generate Password Button -->
-        <button type="button" id="generate_password">Generate Password</button>
+    <div class="mode-buttons">
+      <label><input type="radio" name="level" id="easy" value="easy" checked /> Easy</label>
+      <label><input type="radio" name="level" id="medium" value="medium" /> Medium</label>
+      <label><input type="radio" name="level" id="strong" value="strong" /> Strong</label>
     </div>
 
-    <script src="index.js"></script>
+    <button type="button" id="generate_password">Generate Password</button>
+
+    <input id="WhereTo" type="text" placeholder="Use for?" />
+
+    <button id="save" style="display: none;">Save Password</button>
+
+    <p id="save-message">Saved Successfully ✅</p>
+  </div>
+
+  <script src="index.js"></script>
 </body>
 </html>

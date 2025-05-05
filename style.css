@@ -1,88 +1,73 @@
-
-:root {
-    --primary-color: #007bff;
-    --primary-hover-color: #0056b3;
-    --success-color: #28a745;
-    --success-hover-color: #218838;
-    --background-color: #f4f4f4;
-    --text-color: #000;
-    --card-background: #fff;
-    --card-shadow: rgba(0, 0, 0, 0.1);
-    
-}
-
 body {
     font-family: Arial, sans-serif;
-    background-color: var(--background-color);
-    color: var(--text-color);
+    background: #e8f5e9;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-    
-}
+  }
 
-.password-generator {
-    background-color: var(--card-background);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px var(--card-shadow);
+  .password-generator {
+    background: white;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 128, 0, 0.1);
+    width: 340px;
     text-align: center;
-    width: 300px;
-    max-width: 90%;
-    cursor: pointer;
-}
+  }
 
-.mode-buttons {
-    margin-bottom: 20px;
-}
-
-.mode-buttons button {
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    margin: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-    transition: background-color 0.3s ease;
-}
-
-.mode-buttons button:hover,
-.mode-buttons button:focus {
-    background-color: var(--primary-hover-color);
-    outline: none;
-}
-
-.mode-buttons button.active {
-    background-color: var(--primary-hover-color);
-}
-
-#passwordishere {
-    font-size: 18px;
+  #passwordishere {
+    margin: 10px 0;
+    padding: 12px;
+    background: #f1f8e9;
+    border-radius: 6px;
     font-weight: bold;
-    margin: 20px 0;
-    padding: 10px;
-    background-color: #e9ecef;
-    border-radius: 5px;
-    word-break: break-all;
-}
+    min-height: 30px;
+    color: #2e7d32;
+    word-wrap: break-word;
+  }
 
-#generate_password {
-    background-color: var(--success-color);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+  .mode-buttons {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .mode-buttons label {
+    font-size: 14px;
     cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-}
+    color: #388e3c;
+  }
 
-#generate_password:hover,
-#generate_password:focus {
-    background-color: var(--success-hover-color);
-    outline: none;
-}
+  #generate_password, #save {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  #generate_password:hover,
+  #save:hover {
+    background-color: #388e3c;
+  }
+
+  #WhereTo {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #a5d6a7;
+    border-radius: 6px;
+    outline-color: #66bb6a;
+  }
+
+  #save-message {
+    color: #2e7d32;
+    margin-top: 10px;
+    display: none;
+    font-size: 14px;
+  }

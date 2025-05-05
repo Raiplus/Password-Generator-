@@ -25,7 +25,8 @@ A simple **password generator** that allows users to create **Easy, Medium, and 
 🔗 [Live Preview](https://raiplus.github.io/Password-Generator-/) 
 
 ## 📸 **Screenshots**
-![image](https://github.com/user-attachments/assets/a9355f83-db46-49aa-b517-3794d3b512a6)
+![image](https://github.com/user-attachments/assets/fb8c2fba-bc78-4412-8436-c4be74ce49e5)
+
 
 
 ## 🔧 **Setup Instructions**

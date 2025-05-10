@@ -51,20 +51,26 @@ document.addEventListener("DOMContentLoaded", () => {
     save.addEventListener("click", () => {
         savepasword(password)
         let location = WhereTo.value.trim()
+        
         console.log(location)
         if (location) {
             console.log(location)
             localStorage.setItem(location, password)
-            let arr = JSON.parse(localStorage.getItem("passwordList")) || [];
+            let arr = JSON.parse(localStorage.getItem("passwordList")) || [];// pushing snew pasword in array while remaning old ones
 
             arr.push(location);
             console.log(arr)
             localStorage.setItem("passwordList", JSON.stringify(arr));
+            WhereTo.value="";// first none 
+            WhereTo.placeholder="Use for?";// then placeholder
+            save.style.display="none";
+            passwordishere.innerHTML="Password saved! "
 
         }
         else {
             alert("Please select where to save the password")
         }
+        
     })
 
 
@@ -146,6 +152,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function savepasword(password) {
 
         console.log(password)
+     
 
     }
 

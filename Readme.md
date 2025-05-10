@@ -11,7 +11,6 @@ A simple **password generator** that allows users to create **Easy, Medium, and 
 - ✅ Fully responsive design.
 - ✅ Uses modern JavaScript techniques.
 
-<<<<<<< HEAD
 ## 📝 **Update log**
 ### v1.2.0 (May 11, 2025)
 
@@ -33,9 +32,17 @@ A simple **password generator** that allows users to create **Easy, Medium, and 
 - Added more security features for saving passwords.
 - **Improved UI Feedback**: Error messages now display in red to indicate incorrect actions, such as saving without a location.
 - Improved password save and view logic with error handling.
-=======
-## 📝 **Changelog**
->>>>>>> da19092e6f7b2f0fe2574e93db683f4a96f61461
+
+### v1.1.0 (May 05, 2025)
+- Save and view passwords feature.
+- Password storage using `localStorage`.
+- Fixed UI issues with password display.
+- **Color Scheme Update**:
+  - **Password Display**: Background color of the password display area updated to a lighter green for better contrast.
+  - **Input Fields**: Input fields (for password, view pass, and where to save) now have a border color matching the green theme for consistency.
+- Added more security features for saving passwords.
+- **Improved UI Feedback**: Error messages now display in red to indicate incorrect actions, such as saving without a location.
+- Improved password save and view logic with error handling.
 
 ### v1.0.0 (April 05, 2025)
 - Initial release of the Password Generator.
@@ -48,21 +55,6 @@ A simple **password generator** that allows users to create **Easy, Medium, and 
   - **Button Color Update**: Button hover effects now have a smoother transition between colors (green to darker green for save buttons, blue to darker blue for view buttons).
   - Responsive design for different screen sizes.
 
-<<<<<<< HEAD
-=======
-### v1.1.0 (May 05, 2025)
-- Save and view passwords feature.
-- Password storage using `localStorage`.
-- Fixed UI issues with password display.
-- **Color Scheme Update**:
-  - **Password Display**: Background color of the password display area updated to a lighter green for better contrast.
-  - **Input Fields**: Input fields (for password, view pass, and where to save) now have a border color matching the green theme for consistency.
-- Added more security features for saving passwords.
-- **Improved UI Feedback**: Error messages now display in red to indicate incorrect actions, such as saving without a location.
-- Improved password save and view logic with error handling.
-
-
->>>>>>> da19092e6f7b2f0fe2574e93db683f4a96f61461
 ## 🎯 **How It Works**
 1. Select a **password strength** (Easy, Medium, Strong).
 2. Click **"Generate Password"**.
